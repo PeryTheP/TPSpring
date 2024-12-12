@@ -44,7 +44,7 @@ contents of the Program, including, for purposes of clarity any new file
 in Source Code form that contains any contents of the Program. Modified
 Works shall not include works that contain only declarations,
 interfaces, types, classes, structures, or files of the Program solely
-in each case in order to link to, bind by name, or subclass the Program
+in each case in order to link to, bind by username, or subclass the Program
 or Modified Works thereof.
 
 "Distribute" means the acts of a) distributing or b) making available
@@ -263,7 +263,7 @@ Exhibit A - Form of Secondary Licenses Notice
 
 "This Source Code may also be made available under the following
 Secondary Licenses when the conditions for such availability set forth
-in the Eclipse Public License, v. 2.0 are satisfied: {name license(s),
+in the Eclipse Public License, v. 2.0 are satisfied: {username license(s),
 version(s), and exceptions or additional permissions here}."
 
   Simply including a copy of this Agreement, including this Exhibit A
