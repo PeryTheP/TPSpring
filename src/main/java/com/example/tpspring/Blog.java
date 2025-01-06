@@ -3,11 +3,12 @@ package com.example.tpspring;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 public class Blog {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Ajout de la génération automatique de l'ID
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private LocalDate datePubli;
@@ -17,7 +18,8 @@ public class Blog {
     @JoinColumn(name = "auteur_id")
     private User auteur;
 
-    // Constructeurs, getters, setters
+    @OneToMany(mappedBy = "article", cascade = CascadeType.ALL)
+    private List<LikeDislike> reactions;
 
     public Blog() {
     }
